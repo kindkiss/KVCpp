@@ -201,7 +201,7 @@ bool KVParser::_readKeyValue(string &strCurStr, string& strKey, string& strValue
 
 						 strValue.push_back(ch);
 
-						 index++;
+						 ++index;
 						 if (index >= maxIndex)
 						 {
 							 return false;
