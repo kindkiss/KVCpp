@@ -24,7 +24,7 @@ int main()
 	string cv;
 	if (v.HasKey("DOTAAbilities"))
 	{
-		v_ablilitys = v["DOTAAbilities"];
+		 v_ablilitys = v["DOTAAbilities"];
 		 cv=v_ablilitys.Convert2Str();
   	}
 	if (v_ablilitys.HasKey("dota_ability_dummy"))
@@ -68,7 +68,7 @@ int main()
 	}
 
 	int i = 0;
-	cout << "input 1 to save the file in D:\\out.txt";
+	cout << "input 1 to save the file in D:\\out.txt ";
 	cin >> i;
 
 	if (i == 1)
