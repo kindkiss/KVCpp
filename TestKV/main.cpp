@@ -68,6 +68,7 @@ int main()
 	}
 
 	int i = 0;
+	cout << "input 1 to save the file in D:\\out.txt";
 	cin >> i;
 
 	if (i == 1)
